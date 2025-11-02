@@ -1,0 +1,105 @@
+# =========================
+# 🔥 Firebase
+# =========================
+.firebase/
+firebase-debug.log
+.firebaserc.local
+functions/.runtimeconfig.json
+functions/node_modules/
+storage_export/
+
+# =========================
+# 🧠 TensorFlow / Machine Learning
+# =========================
+# Model weights or checkpoints
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.tflite
+*.onnx
+*.pth
+*.pkl
+*.joblib
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Training data / generated images
+data/
+datasets/
+training/
+models/
+results/
+uploads/
+runs/
+
+# =========================
+# 🐍 Python Backend
+# =========================
+venv/
+.env/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.spec
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# =========================
+# 🧰 IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# 💾 OS & Misc
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.tmp
+*.log
+tmp/
+temp/
+
+# =========================
+# 🧪 Testing / Reports
+# =========================
+coverage/
+test-results/
+jest-html-reporters-*.html
+cypress/videos/
+cypress/screenshots/
+
+# =========================
+# 🔒 Sensitive / Private
+# =========================
+keys/
+secrets/
+api_keys.json
+serviceAccountKey.json
+credentials.json
+private.key
+*.pem
+*.crt
+
+# =========================
+# 📦 Optional lockfiles (pick one)
+# =========================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
